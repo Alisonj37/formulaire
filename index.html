@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="formulario" class="formulario">
+        <input id="name"  name="name" type="text" placeholder="Nom">
+        <input id="email"  name="email" type="email" placeholder="Email">
+        <input id="age"  name="age" type="number" placeholder="Age">
+
+        <p>Pessoa Fisica ou Juridica</p> <br>
+        <input name="type" type="radio" value="fisica">Fisica
+        <input name="type" type="radio" value="juridica">Juridica
+        <button type="button" onclick="salva()">Salvar</button>
+
+    </form>
+</body>
+</html>
